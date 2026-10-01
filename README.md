@@ -8,7 +8,7 @@
 
 Analyze cost and workload evidence before choosing alternatives. EKS and EC2/Docker are candidates, not winners by fiat. EC2 Auto Scaling is an optimized candidate only, not deployed.
 
-![AWS cost analysis and migration decision architecture](architecture/architecture.png)
+![AWS cost analysis and migration decision architecture](architecture/aws-cost-optimization-architecture-v2.png)
 
 See architecture/architecture.md and docs/architecture-comparison.md. AWS service marks use the approved icon toolkit from [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/); the diagram is rendered by architecture/render.swift.
 
