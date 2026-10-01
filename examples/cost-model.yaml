@@ -1,0 +1,25 @@
+# ILLUSTRATIVE_SAMPLE_NOT_AWS_BILL — invented monthly scenario assumptions.
+# Candidate amounts are not AWS prices, quotes, or measured savings.
+currency: USD
+region: us-east-1
+period: monthly
+source: synthetic portfolio exercise
+scenarios:
+  current:
+    eks_worker_capacity: 420
+    eks_control_plane: 73
+    nat_gateway: 95
+    alb: 38
+    ebs: 64
+    s3: 22
+    cloudwatch_logs: 58
+    data_transfer: 42
+  candidate:
+    ec2_docker_compute: 310
+    platform_control_plane: 0
+    nat_and_egress: 68
+    alb: 38
+    ebs: 48
+    s3: 16
+    cloudwatch_logs: 34
+    data_transfer: 30

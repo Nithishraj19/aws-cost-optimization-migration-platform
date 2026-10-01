@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+terraform/.terraform/
+terraform/terraform.tfstate*
+terraform/*.tfvars
+!terraform/terraform.tfvars.example
+.DS_Store
